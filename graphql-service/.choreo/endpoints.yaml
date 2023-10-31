@@ -14,6 +14,7 @@
 # specific language governing permissions and limitations
 # under the License.
 #
+#
 # +required Version of the endpoint configuration YAML
 version: 0.2
 
