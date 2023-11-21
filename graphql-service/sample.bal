@@ -11,7 +11,7 @@ service / on new graphql:Listener(8090) {
 
 }
 
-service /greeting2 on new graphql:Listener(8090) {
+service /greeting2 on new graphql:Listener(9090) {
 
   resource function get greeting2(string name) returns string|error {
         if name is "" {
