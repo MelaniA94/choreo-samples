@@ -19,4 +19,11 @@ service / on new graphql:Listener(8090) {
         }
         return "Hello, " + name;
     }
+
+  resource function get greeting2(string name) returns string|error {
+        if name is "" {
+            return error("name should not be empty!");
+        }
+        return "Hello, " + name;
+    }
 }
